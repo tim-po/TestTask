@@ -1,0 +1,65 @@
+.block1 {
+    position: fixed;
+    z-index: 4;
+    right: 10px;
+    top: -27px;
+    
+    color: rgb(255, 254, 254);
+    
+  }
+.img {
+  position: relative;
+  height: 1010px;
+  width: 1510px;
+  top: -226px;
+  left: -8px;
+  
+  
+}
+.txt {
+    position: relative;
+    z-index: 1;
+    color: rgb(254, 254, 254);
+    top: 40px;
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 100px;
+    text-align: left;
+}
+
+.block2 {
+  position: fixed;
+  z-index: 1;
+  top: -17px;
+  color: rgb(255, 255, 255);
+  
+  text-align: left;
+  word-spacing: 15px;
+}
+.block3{
+  position: fixed;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  top: -15px;
+  right: 750px;
+}
+
+.block4{
+  position: relative;
+  z-index: 5;
+  color: aliceblue;
+  top: 40px;
+}
+.block5{
+  position: relative;
+  top: -200px;
+}
+.block6{
+  position: relative;
+  top: -100px;
+}
+.img2{    
+  position: relative;
+  z-index: 6;
+  top:200px;
+}
