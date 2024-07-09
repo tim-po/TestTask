@@ -1,8 +1,10 @@
 .body {
+  /*TODO зачем?*/
   overflow-x: hidden;
 }
 
 .img {
+  /* TODO  position: absolute; почти нигде не нужен используй позиционирование с помощью padding margin и тегов типа flex*/
   position: absolute;
   height: 100%;
   width: 101%;
@@ -13,14 +15,17 @@
   position: relative;
   z-index: 1;
   color: rgb(255, 255, 255);
+  /*TODO зачем 2 top?*/
   top: 10%;
   font-size: clamp(50px, 10vw, 100px);
   font-weight: 200;
   line-height: 100px;
   text-align: left;
+  /* TODO почему в vh? */
   top: 5vh;
 }
 .block1 {
+  /*TODO position: fixed; тут не нужен обедени эти 2 блока в flex и с ним уже развлекайся */
   position: fixed;
   z-index: 1;
   right: 2%;
@@ -45,6 +50,8 @@
 }
 
 .block4 {
+  /* TODO почему в absolute? */
+
   position: absolute;
   z-index: 2;
   color: aliceblue;
@@ -52,17 +59,23 @@
   font-size: clamp(10px, 2vw, 50px);
 }
 .block5 {
+  /* TODO почему в absolute? */
+
   position: absolute;
   z-index: 2;
   top: 100%;
   font-size: clamp(10px, 2vw, 50px);
 }
 .block6 {
+  /* TODO почему в absolute? */
+
   position: absolute;
   top: 70%;
   font-size: clamp(10px, 2vw, 50px);
 }
 .block7 {
+  /* TODO почему в absolute? */
+
   position: absolute;
   color: aliceblue;
   z-index: 1;
@@ -75,6 +88,8 @@
 }
 
 .block8 {
+  /* TODO почему в absolute? */
+
   position: absolute;
   color: rgb(255, 255, 255);
   z-index: 1;
